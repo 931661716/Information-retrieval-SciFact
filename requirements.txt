@@ -1,0 +1,7 @@
+# Core (steps 1-5): sparse retrieval + evaluation
+numpy
+nltk            # only for the Porter stemmer (no corpus downloads needed)
+scikit-learn    # only for its English stop-word list
+
+# Optional (steps 6-7): neural dense retrieval
+sentence-transformers
